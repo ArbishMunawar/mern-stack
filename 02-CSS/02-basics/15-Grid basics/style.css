@@ -31,7 +31,7 @@ main{
 background-color: #afcfe9;
 
 grid-template-columns: repeat(2, minmax(50px ,90px));
-grid-template-rows: repeat(2,minmax(50px, 90px));
+grid-template-rows: repeat(3,minmax(50px, 90px));
 
 justify-items: center;
 align-items: center;
