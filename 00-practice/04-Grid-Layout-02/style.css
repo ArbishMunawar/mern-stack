@@ -134,7 +134,9 @@ header {
     /* grid-column: span 13; */
     grid-template-columns: repeat(12, 1fr);
 }
-
+.wrapper-heading{
+    grid-column: span 13;
+}
 header div.title {
     justify-content: center;
     align-items: center;
@@ -149,7 +151,7 @@ header div.sub-title {
     color: var(--color5);
     margin-left: 8rem;
     margin-top: 0.5rem;
-    /* grid-column: span 5; */
+    grid-column: span 13;
 }
 
 section {
